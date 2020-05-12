@@ -2,7 +2,7 @@
 
 # Welcome to Building FlightGear OnDebian
 # This is the following version of this script.
-bfod_ver="0.0.1.20200512.1610"
+bfod_ver="0.0.1.20200512.1630"
 
 # This script's intention is to download and build
 # dependencies required to build FlightGear and
@@ -19,7 +19,7 @@ bfod_ver="0.0.1.20200512.1610"
 ## Variables defining versions to be used.
 
 # Defining version for FlightGear, FlightGear Data and SimGear.
-fg_version="2019.1.2"
+export fg_version="2019.1.2"
 
 # PLib version
 
