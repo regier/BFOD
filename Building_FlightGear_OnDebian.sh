@@ -1,10 +1,13 @@
 # Welcome to Building FlightGear OnDebian
 # This is the following version of this script.
-bfod_ver="0.0.1.20200512.0023"
+bfod_ver="0.0.1.20200512.1259"
 
 # This script's intention is to download and build
 # dependencies required to build FlightGear and
 # FlightGear itself.
+
+# The script follows the KISS principle, each file does one thing only.
+# This file defines the variables.
 
 # As is, it will use the latest stable version of each
 # component. Should you want to use the dev versions
@@ -12,6 +15,13 @@ bfod_ver="0.0.1.20200512.0023"
 
 
 #!/bin/bash
+
+# A folder called Games will be created in the users home if it doesn't exist
+# and FlightGear will be installed there.
+fg_install_dir="$HOME/Games/FlightGear"
+
+# This is the location for source codes and temp files.
+fg_temp_files="/dev/shm/FlightGear"
 
 # List of addresses and versions for FlightGear, in the
 # following order. PLib, OpenSceneGraph, SimGear.
