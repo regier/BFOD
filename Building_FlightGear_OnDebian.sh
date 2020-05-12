@@ -13,12 +13,21 @@ bfod_ver="0.0.1.20200512.0023"
 
 #!/bin/bash
 
-# List of addreses and versions for FlightGear in the
+# List of addresses and versions for FlightGear, in the
 # following order. PLib, OpenSceneGraph, SimGear.
 
 # PLib
-plib_svn="svn://svn.code.sf.net/p/plib/code/trunk plib-code"
+plib_svn="svn://svn.code.sf.net/p/plib/code/trunk"
 
 # OpenSceneGraph
 osg_git="https://github.com/openscenegraph/OpenSceneGraph"
 osg_version="OpenSceneGraph-3.6"
+
+# SimGear
+opensim_git="git://git.code.sf.net/p/flightgear/simgear"
+
+# FlightGear
+flghtgear_git="git://git.code.sf.net/p/flightgear/flightgear"
+
+# FlightGear Data
+flghtgear_git="git://git.code.sf.net/p/flightgear/fgdata"
