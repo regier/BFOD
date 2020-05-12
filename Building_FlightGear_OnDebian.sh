@@ -2,7 +2,7 @@
 
 # Welcome to Building FlightGear OnDebian
 # This is the following version of this script.
-bfod_ver="0.0.1.20200512.1630"
+bfod_ver="0.0.1.20200512.1640"
 
 # This script's intention is to download and build
 # dependencies required to build FlightGear and
@@ -11,10 +11,6 @@ bfod_ver="0.0.1.20200512.1630"
 # The script follows the KISS principle, each file does one thing only.
 
 # This file defines the variables.
-
-# As is, it will use the latest stable version of each
-# component. Should you want to use the dev versions
-# simply edit the variables bellow.
 
 ## Variables defining versions to be used.
 
