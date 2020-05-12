@@ -28,8 +28,11 @@ export osg_version="OpenSceneGraph-3.6"
 # and FlightGear will be installed there.
 export fg_install_dir="$HOME/Games/FlightGear"
 
-# This is the location for source codes and temp files.
-export fg_temp_files="/dev/shm/FlightGear"
+# This is the location for temp files.
+export fg_temp_files="/dev/shm/FlightGear_Temp"
+
+# This is the location for source codes.
+export fg_source_files="/dev/shm/FlightGear_Sources"
 
 # List of addresses and versions for FlightGear, in the
 # following order. PLib, OpenSceneGraph, SimGear.
@@ -51,4 +54,4 @@ export flghtgear_git="git://git.code.sf.net/p/flightgear/fgdata"
 
 # Creating temp folder and instalation folder as define on the first variables
 # of this file.
-mkdir -p $fg_install_dir $fg_temp_files
+mkdir -p $fg_install_dir $fg_temp_files $fg_source_files

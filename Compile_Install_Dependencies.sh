@@ -11,3 +11,8 @@ bfod_ver="0.0.1.20200512.1640"
 # The script follows the KISS principle, each file does one thing only.
 
 # This file Compiles everything.
+
+
+
+# Building PLib
+cmake $fg_source_files/PLib -DCMAKE_INSTALL_PREFIX="fg_install_dir"
