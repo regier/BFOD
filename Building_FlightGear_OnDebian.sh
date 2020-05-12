@@ -39,7 +39,7 @@ export fg_temp_files="/dev/shm/FlightGear"
 # following order. PLib, OpenSceneGraph, SimGear.
 
 # PLib
-export plib_svn="svn://svn.code.sf.net/p/plib/code/trunk"
+export plib_git="git://git.code.sf.net/p/libplib/code"
 
 # OpenSceneGraph
 export osg_git="https://github.com/openscenegraph/OpenSceneGraph"
