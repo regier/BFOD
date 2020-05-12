@@ -9,14 +9,24 @@ bfod_ver="0.0.1.20200512.1610"
 # FlightGear itself.
 
 # The script follows the KISS principle, each file does one thing only.
-# This file defines the variables.
 
+# This file defines the variables.
 
 # As is, it will use the latest stable version of each
 # component. Should you want to use the dev versions
 # simply edit the variables bellow.
 
+## Variables defining versions to be used.
 
+# Defining version for FlightGear, FlightGear Data and SimGear.
+fg_version="2019.1.2"
+
+# PLib version
+
+# OpenSceneGraph version
+export osg_version="OpenSceneGraph-3.6"
+
+## Variables for folder locations and URLs for Git and SVN repos.
 
 # A folder called Games will be created in the users home if it doesn't exist
 # and FlightGear will be installed there.
@@ -33,7 +43,6 @@ export plib_svn="svn://svn.code.sf.net/p/plib/code/trunk"
 
 # OpenSceneGraph
 export osg_git="https://github.com/openscenegraph/OpenSceneGraph"
-export osg_version="OpenSceneGraph-3.6"
 
 # SimGear
 export opensim_git="git://git.code.sf.net/p/flightgear/simgear"
