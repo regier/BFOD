@@ -2,7 +2,7 @@
 
 # Welcome to Building FlightGear OnDebian
 # This is the following version of this script.
-bfod_ver="0.0.1.20200512.1640"
+bfod_ver="0.0.1.20200513.1110"
 
 # This script's intention is to download and build
 # dependencies required to build FlightGear and
@@ -15,12 +15,10 @@ bfod_ver="0.0.1.20200512.1640"
 ## Variables defining versions to be used.
 
 # Defining version for FlightGear, FlightGear Data and SimGear.
-export fg_version="2019.1.2"
-
-# PLib version
+export fg_version="next"
 
 # OpenSceneGraph version
-export osg_version="OpenSceneGraph-3.6"
+export osg_version="master"
 
 ## Variables for folder locations and URLs for Git and SVN repos.
 
@@ -44,13 +42,13 @@ export plib_git="git://git.code.sf.net/p/libplib/code"
 export osg_git="https://github.com/openscenegraph/OpenSceneGraph"
 
 # SimGear
-export opensim_git="git://git.code.sf.net/p/flightgear/simgear"
+export simgear_git="https://git.code.sf.net/p/flightgear/simgear"
 
 # FlightGear
-export flghtgear_git="git://git.code.sf.net/p/flightgear/flightgear"
+export flightgear_git="https://git.code.sf.net/p/flightgear/flightgear"
 
 # FlightGear Data
-export flghtgear_git="git://git.code.sf.net/p/flightgear/fgdata"
+export fggear_git="https://git.code.sf.net/p/flightgear/fgdata"
 
 # Creating temp folder and instalation folder as define on the first variables
 # of this file.
